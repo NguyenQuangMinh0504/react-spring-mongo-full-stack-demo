@@ -12,7 +12,7 @@ services:
       - SPRING_PROFILES_ACTIVE=local
       - MONGO_URL=mongodb://database:27017/dev
     ports:
-      - "8081:8080"
+      - "8080:8080"
   web:
     build:
       context: react-student-management
